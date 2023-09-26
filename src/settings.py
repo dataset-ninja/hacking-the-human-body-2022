@@ -53,7 +53,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Alternative source":"https://www.kaggle.com/datasets/jirkaborovec/hacking-the-human-body-masks-png-images"}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Alternative Source":"https://www.kaggle.com/datasets/jirkaborovec/hacking-the-human-body-masks-png-images"}
 
 CITATION_URL: Optional[str] = "https://www.kaggle.com/competitions/hubmap-organ-segmentation/overview/citation"
 AUTHORS: Optional[List[str]] = ["Addison Howard", "Almost Sohier", "Cecilia Lindskog", "Emma Lundberg", "Katy Borner", "Leah Godwin", "Shriya Dane", "Sohier Dane", "Trang Le", "Yashvardhan Jain"]
@@ -62,7 +62,7 @@ ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"__POSTTEXT__":"Also Dataset includes ***age***, ***sex***, ***tissue_thickness*** for train split, ***organ*** and ***tissue_thickness*** for test split"}
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"__POSTTEXT__":"Also, the dataset includes ***age***, ***sex***, ***tissue_thickness*** for train split, ***organ*** and ***tissue_thickness*** for test split"}
 TAGS: Optional[List[str]] = None
 
 
