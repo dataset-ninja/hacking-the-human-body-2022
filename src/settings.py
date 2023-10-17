@@ -53,7 +53,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Alternative Source":"https://www.kaggle.com/datasets/jirkaborovec/hacking-the-human-body-masks-png-images"}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Alternative Kaggle":"https://www.kaggle.com/datasets/jirkaborovec/hacking-the-human-body-masks-png-images"}
 
 CITATION_URL: Optional[str] = "https://www.kaggle.com/competitions/hubmap-organ-segmentation/overview/citation"
 AUTHORS: Optional[List[str]] = ["Addison Howard", "Almost Sohier", "Cecilia Lindskog", "Emma Lundberg", "Katy Borner", "Leah Godwin", "Shriya Dane", "Sohier Dane", "Trang Le", "Yashvardhan Jain"]
